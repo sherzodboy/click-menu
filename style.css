@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.move {
+    background-color: #999;
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 150px;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    transform: translateX(4px) translateY(5px);
+    transition: 0.2s all linear;
+}
+.move-hover {
+    background-color: rgba(34, 160, 34, 0.904);
+}
+.circle-transform {
+    transform: translateX(66px) translateY(5px);
+}
+.body {
+    background-color: #ddd;
+    color: #000;
+    transition: 0.2s all linear;
+    font-family: serif;
+    font-weight: bold;
+}
+.body-hover {
+    background-color: #000;
+    color: #fff;
+}
+.link {
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+    transition: 0.2s all linear;
+}
+.link-hover {
+    color: rgb(255, 255, 0);
+}
